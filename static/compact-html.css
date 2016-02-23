@@ -1,0 +1,121 @@
+html, body, main, section, header, ul, p, h3 {
+  font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+  font-size: 12px;
+  margin: 0; padding: 0;
+  display: block;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a {
+  color: #0064BD;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7B0796;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #B3B3B3;
+}
+
+main {
+  padding: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+header {
+  padding-bottom: .25em;
+  margin-bottom: .25em;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p, li {
+  text-align: justify;
+  clear: both;
+}
+
+.tenure {
+  float: right;
+  font-style: italic;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+}
+
+
+h3 {
+  display: inline-block;
+  line-height: 1;
+}
+
+#contact > div {
+  margin-left: 10px;
+}
+
+span.fa {
+  text-align: left;
+  margin-right: .5em;
+  float: left;
+}
+
+span.fa-lg {
+  line-height: 1.2em;
+}
+
+section > div {
+  margin-bottom: 1em;
+  clear: both;
+}
+
+span.keywords {
+  font-size: 10px;
+  color: gray;
+  text-align: right;
+}
+
+.column-1 {
+  width: 48%;
+  display:inline-block;
+}
+
+.column-2 {
+  width: 48%;
+  display:inline-block;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: .33em;
+  padding-bottom: .33em;
+}

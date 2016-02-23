@@ -1,0 +1,163 @@
+{
+
+  "name": "Jake Gysland",
+
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+
+  "info": {
+    "label": "",
+    "characterClass": "",
+    "brief": "Eager Python developer and inquisitive hacker with background in political data and insatiable thirst for technical growth. Prefers elegant solutions to immediate solutions whenever possible; likes working with teams that encourage curiosity and value creativity, and with organizations that prioritize data-driven decision making.",
+    "image": ""
+  },
+
+  "contact": {
+    "website": "http://jgys.land",
+    "phone": "(952) 486-1158",
+    "email": "jake.gysland@gmail.com",
+    "other": [
+    ]
+  },
+
+  "location": {
+    "address": "140 M St NE\nWashington, DC 20002",
+    "city": "Washington",
+    "region": "DC",
+    "code": "20002",
+    "country": "US"
+  },
+
+  "social": [
+
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "jgysland",
+      "url": "https://github.com/jgysland"
+    },
+
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "user": "jgysland",
+      "url": "https://twitter.com/jgysland"
+    }
+  ],
+
+  "employment": {
+
+    "summary": "",
+
+    "history": [
+      {
+        "employer": "Enroll America",
+        "position": "Reporting Director",
+        "start": "September 2015",
+        "end": "Present",
+        "summary": "Resident tech whiz, wrangler of data, builder of tools, and administrator of infrastructure.",
+        "highlights": [
+          "Developed, automated, and maintained a wide array of routine reporting products with the PyData stack and other Python packages and GNU/Linux tools for data munging and pipelining, d3.js and crossfilter.js for web-based reporting front-ends, and a liberal dose of VBA for generating complicated, institutionally-entrenched Excel dashboards.",
+          "Found novel solutions to barriers in the acquisition, processing, application, and interaction of new and old datasets by leveraging open-source tools and a relentless hacker ethos.",
+          "Handled administration of development and analytics server, Amazon Redshift instance, and Civis Platform."
+        ]
+      },
+      {
+        "employer": "America Votes and State Voices (VVN)",
+        "position": "Data and Targeting Associate",
+        "start": "May 2013",
+        "end": "September 2015",
+        "summary": "Data guru for dozens of progressive 501(c)(3) and 501(c)(4) non-profits, labor unions, and independent expenditure PACs in Minnesota.",
+        "highlights": [
+          "Made large- and small-scale targeting recommendations based on analysis of modeling, past program and election results, and capacity for electoral, civic engagement, and legislative advocacy campaigns.",
+          "Performed analyses of candidate fundraising versus electoral performance to identify vulnerabilities and opportunities in battleground district targeting.",
+          "Created web-based dashboards and tools for candidate recruitment, real-time election night predictions at the precinct level, interactive maps of district- and precinct-level modeling, and tracking public and internal polls.",
+          "Created individual-level modeling routines to aid in partner base-building work, political targeting, and program evaluation."
+        ]
+      },
+      {
+        "employer": "TakeAction Minnesota",
+        "position": "Data Manager",
+        "start": "June 2012",
+        "end": "November 2013",
+        "summary": "",
+        "highlights": [
+          "Managed all field, targeting, and reporting data for a statewide ballot measure campaign.",
+          "Improved data warehousing by centralizing data storage of constituent information in one database for ease-of-access to all staff.",
+          "Trained staff and volunteers and created documentation on new and existing data systems and conventions."
+        ]
+      }
+    ]
+
+  },
+
+  "education": {
+
+    "summary": "",
+
+    "level": "degree",
+
+    "degree": "Bachelor of Arts with Distinction in Engagement",
+
+    "history": [
+
+      {
+        "institution": "Minnesota State University Moorhead",
+        "title": "Bachelor of Arts with Distinction in Engagement",
+        "url": "http://www.mnstate.edu",
+        "start": "2008",
+        "end": "2011",
+        "summary": "Bachelor of Arts with major course of study in philosophy and minor course of study in music. Distinction in Engagement recognizes service in student government at university- and state-level, contributions to student civic engagement efforts, and diversity of academic endeavors, both at <em>alma mater</em> and during an exchange at the University of Reading."
+      },
+      {
+        "institution": "Normandale Community College",
+        "start": "2006",
+        "end": "2008"
+      }
+    ]
+
+  },
+
+  "skills": {
+
+    "sets": [
+      {
+        "name": "Python Data Science Stack",
+        "level": "",
+        "skills": [
+          "pandas",
+          "scikit-learn",
+          "matplotlib + seaborn"
+        ]
+      },
+      {
+        "name": "Interactive Data Graphics / Web Design",
+        "skills": [
+          "Flask",
+          "d3.js + crossfilter.js / DC.js",
+          "HTML + CSS"
+        ]
+      },
+      {
+        "name": "Database Management",
+        "level": "",
+        "skills": [
+          "PostgreSQL / Amazon Redshift",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "*nix / command line",
+        "level": "",
+        "skills": [
+          "file processing / ETL / pipelining",
+          "automation",
+          "system administration",
+          "git versioning"
+        ]
+      }
+    ]
+  }
+}
