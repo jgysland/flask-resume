@@ -14,4 +14,6 @@ def read_resume(resume_path=resume_path):
 def show_resume():
     return render_template('compact.html', r=read_resume())
 
-app.run()
+
+if __name__ == '__main__':
+    app.run()
