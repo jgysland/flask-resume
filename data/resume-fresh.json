@@ -2,11 +2,6 @@
 
   "name": "Jake Gysland",
 
-  "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
-  },
-
   "info": {
     "label": "",
     "characterClass": "",
@@ -38,12 +33,17 @@
       "user": "jgysland",
       "url": "https://github.com/jgysland"
     },
-
     {
       "label": "Twitter",
       "network": "Twitter",
       "user": "jgysland",
       "url": "https://twitter.com/jgysland"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "jgysland",
+      "url": "https://github.com/jgysland"
     }
   ],
 
@@ -57,7 +57,7 @@
         "position": "Reporting Director",
         "start": "September 2015",
         "end": "Present",
-        "summary": "Resident tech whiz, wrangler of data, builder of tools, and administrator of infrastructure.",
+        "summary": "Resident tech whiz, data wrangler and toll-builder, administrator of data/tech infrastructure.",
         "highlights": [
           "Developed, automated, and maintained a wide array of routine reporting products with the PyData stack and other Python packages and GNU/Linux tools for data munging and pipelining, d3.js and crossfilter.js for web-based reporting front-ends, and a liberal dose of VBA for generating complicated, institutionally-entrenched Excel dashboards.",
           "Found novel solutions to barriers in the acquisition, processing, application, and interaction of new and old datasets by leveraging open-source tools and a relentless hacker ethos.",
