@@ -1,12 +1,24 @@
-html, body, main, section, header, ul, p, h3 {
-  font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
-  font-size: 12px;
-  margin: 0; padding: 0;
+html, body, main, section, header, ul, p {
   display: block;
+  margin: 0; padding: 0;
+  font-size: 13px;
+  font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+}
+
+ul {
+  padding-bottom: .5em;
 }
 
 h2 {
   font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0em;
+}
+
+h3 {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0;
 }
 
 a {
@@ -22,33 +34,15 @@ a:hover {
   text-decoration: underline;
 }
 
-h2 {
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 1em;
-}
-
 hr {
   border: none;
   border-top: 1px solid #B3B3B3;
 }
 
 main {
+  margin: 0 auto;
   padding: 15px;
   max-width: 700px;
-  margin: 0 auto;
-}
-
-section {
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-header {
-  padding-bottom: .25em;
-  margin-bottom: .25em;
 }
 
 li {
@@ -56,27 +50,18 @@ li {
 }
 
 p, li {
-  text-align: justify;
   clear: both;
+  text-align: justify;
 }
 
 .tenure {
   float: right;
   font-style: italic;
-}
-
-thead {
-  display: none;
+  display: inline-block;
 }
 
 main > header {
   width: 100%;
-}
-
-
-h3 {
-  display: inline-block;
-  line-height: 1;
 }
 
 #contact > div {
@@ -84,9 +69,9 @@ h3 {
 }
 
 span.fa {
-  text-align: left;
-  margin-right: .5em;
   float: left;
+  margin-right: .5em;
+  text-align: left;
 }
 
 span.fa-lg {
@@ -94,28 +79,33 @@ span.fa-lg {
 }
 
 section > div {
-  margin-bottom: 1em;
   clear: both;
+  margin-bottom: .25em;
 }
 
 span.keywords {
-  font-size: 10px;
   color: gray;
   text-align: right;
+  font-size: 10px;
 }
 
 .column-1 {
-  width: 48%;
   display:inline-block;
+  width: 48%;
 }
 
 .column-2 {
-  width: 48%;
   display:inline-block;
+  width: 48%;
 }
 
 .name {
-  font-size: 22px;
   margin-bottom: .33em;
   padding-bottom: .33em;
+  font-size: 22px;
+}
+
+.skill-set {
+  padding-top: .4em;
+  padding-bottom: .4em;
 }

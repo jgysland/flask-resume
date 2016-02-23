@@ -45,7 +45,7 @@
     <div>
       <h3><em>{{ job.position }}</em>, {% if job.url %}<a href="{{ job.url }}">{% endif %}{{ job.employer }}{% if job.url %}</a>{% endif %}</h3>
       <span class="tenure">{{ job.start if job.start }}{{ '—' if job.start and job.end }}{{ job.end if job.end }}</span>
-      <p>{{ job.summary }}</p>
+      {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
       {% if job.highlights %}
         <ul>{% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}</ul>
       {% endif %}
@@ -65,7 +65,7 @@
       <div class="column-{{ loop.index }}">
         {% for item in column %}
           <div>
-            <div>
+            <div class="skill-set">
               <strong>{{ item.name }}</strong>
             </div>
             <ul>
