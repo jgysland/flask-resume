@@ -1,3 +1,4 @@
-.htacces
+.htaccess
 resume.fcgi
 *.pyc
+templates/google-analytics.html
