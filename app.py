@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 app.debug = True
-resume_path = 'data/resume-fresh.json'
+resume_path = 'data/resume.json'
 
 
 def read_resume(resume_path=resume_path):
