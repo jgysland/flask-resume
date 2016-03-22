@@ -25,11 +25,11 @@
         {% endif %}
         {% for network in r.social %}
           <div class="{{ network.label }}">
-            <span class="{{ network.icon }}"></span><p style="display:inline-block;"><a href="{{ network.url }}">{{ network.label }}</a></p>
+            <span class="{{ network.icon }} fa-fw"></span><p style="display:inline-block;"><a href="{{ network.url }}">{{ network.label }}</a></p>
           </div>
         {% endfor %}
         {% if r.location.address %}
-          <span class="fa fa-home"></span><p style="display:inline-block;">{{ r.location.address|replace("\n", "<br>")}}</p>
+          <span class="fa fa-home fa-fw"></span><p style="display:inline-block;">{{ r.location.address|replace("\n", "<br>")}}</p>
         {% endif %}
       </div>
       <div style="display:inline-block;width:60%;vertical-align: top;">
