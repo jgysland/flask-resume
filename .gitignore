@@ -2,3 +2,4 @@
 resume.fcgi
 *.pyc
 templates/google-analytics.html
+**/*.pdf
