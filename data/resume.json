@@ -31,15 +31,21 @@
       "label": "GitHub",
       "network": "GitHub",
       "user": "jgysland",
-      "url": "https://github.com/jgysland"
+      "url": "https://github.com/jgysland",
+      "icon": "fa fa-github"
     },
     {
       "label": "Twitter",
       "network": "Twitter",
       "user": "jgysland",
-      "url": "https://twitter.com/jgysland"
+      "url": "https://twitter.com/jgysland",
+      "icon": "fa fa-twitter"
     },
     {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jgysland",
+      "icon": "fa fa-linkedin"
     }
   ],
 
